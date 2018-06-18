@@ -1,0 +1,75 @@
+t1 := 0;
+print t1;
+
+t1 := 5;
+ ~a := t1;
+
+t1 := 5;
+print t1;
+
+t1 := Hello;
+print t1;
+
+t1 := 123;
+ ~c := t1;
+
+t1 := 123;
+print t1;
+
+t1 := 0; 
+_L0 : t2 := ~c != t1; 
+if nz t2;
+t3 := 10;
+t4 := ~c %s;
+t3 := ~rm;
+t4 := t5 * ~re;
+t3 := t6 + t5;
+~rm := ~re;
+t6 := t7 / ~c;
+
+t1 := Reversed;
+print t1;
+
+t1 := 321;
+print t1;
+
+t1 := 1;
+ ~d := t1;
+
+t1 := ~d == 0;
+ if z t1 goto _L0;
+t2 := Even 
+print t2;
+_LO : else;
+t3 := Odd 
+print t3
+
+t1 := 0;
+_LO : t2 := ~a > t1;
+if nz t2;
+t3 := Looped;
+print t3;
+t4 := 1;
+t5 := ~a - t4;
+goto _LO;
+
+t1 := 0;
+print t1;
+
+t1 := 4;
+ ~c := t1;
+
+t1 := 0;
+_LO : t2 := ~c > t1;
+if nz t2;
+t4 := 1;
+t5 := ~c - t4;
+goto _LO;t3 := 4;
+print t3;
+
+t1 := 0;
+print t1;
+
+t1 := End;
+print t1;
+

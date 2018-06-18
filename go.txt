@@ -1,0 +1,33 @@
+print ~a;
+
+~a=5;
+
+print ~a;
+
+print Hello;
+
+~c=123;
+
+print ~c;
+
+while(~c!=0){~rm=~c%10;~re=~re*10+~rm;~c=~c/10;}
+
+print Reversed;
+
+print ~re;
+
+~d=~re%2;
+
+if(~d==0){print Even;}else{print Odd;}
+
+while(~a>0){print Looped; ~a=~a-1;}
+
+print ~a;
+
+~c=4;
+
+while(~c>0){~c=~c-1; print ~c;}
+
+print ~c;
+
+print End;
